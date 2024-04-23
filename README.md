@@ -1,0 +1,1 @@
+# SchoolApp.WebApi.NetCore6.0
