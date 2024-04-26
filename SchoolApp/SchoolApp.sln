@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp.Api", "SchoolApp.Api\SchoolApp.Api.csproj", "{7941D6AD-6014-4CE8-ABA0-674733F3613C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApp.Api", "SchoolApp.Api\SchoolApp.Api.csproj", "{7941D6AD-6014-4CE8-ABA0-674733F3613C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp.Entities", "SchoolApp.Entities\SchoolApp.Entities.csproj", "{B357BF9C-3190-44A3-82B0-04E13E63A1AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApp.Entities", "SchoolApp.Entities\SchoolApp.Entities.csproj", "{B357BF9C-3190-44A3-82B0-04E13E63A1AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp.Repositories", "SchoolApp.Repositories\SchoolApp.Repositories.csproj", "{C736F070-EDF6-488B-BF37-22D0A397878F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApp.Repositories", "SchoolApp.Repositories\SchoolApp.Repositories.csproj", "{C736F070-EDF6-488B-BF37-22D0A397878F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp.Services", "SchoolApp.Services\SchoolApp.Services.csproj", "{3C2CA0C6-4FCB-4E81-9E19-BF86FF1D76F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApp.Services", "SchoolApp.Services\SchoolApp.Services.csproj", "{3C2CA0C6-4FCB-4E81-9E19-BF86FF1D76F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

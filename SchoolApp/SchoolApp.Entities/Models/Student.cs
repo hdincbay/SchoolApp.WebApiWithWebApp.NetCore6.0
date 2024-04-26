@@ -10,6 +10,7 @@ namespace SchoolApp.Entities.Models
     {
         public int StudentId { get; set; }
         public string? StudentName { get; set; }
+        public string? StudentSurname { get; set; }
         public List<Lesson>? Lessons { get; set; }
         public int Credit { get; set; }
 
