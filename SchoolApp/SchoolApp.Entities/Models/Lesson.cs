@@ -13,6 +13,6 @@ namespace SchoolApp.Entities.Models
         public int LessonTypeId { get; set; }
         public decimal Price { get; set; }
         public string? Description { get; set; }
-        public List<Student>? Students { get; set; }
+        public ICollection<Student>? Students { get; set; }
     }
 }

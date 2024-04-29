@@ -10,7 +10,7 @@ namespace SchoolApp.Entities.Models
     {
         public int LessonTypeId { get; set; }
         public string? LessonTypeName { get; set; }
-        public List<Lesson>? Lessons { get; set; }
+        public ICollection<Lesson>? Lessons { get; set; }
 
     }
 }

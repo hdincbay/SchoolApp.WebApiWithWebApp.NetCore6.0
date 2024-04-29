@@ -52,6 +52,7 @@ namespace SchoolApp.Api.Controllers
                     Credit = createStudentViewModel.Credit,
                     StudentName = createStudentViewModel.StudentName,
                     StudentSurname = createStudentViewModel.StudentSurname,
+                    ImageUrl = createStudentViewModel.ImageUrl,
                 });
                 return Ok("Öğrenci eklendi.");
             }

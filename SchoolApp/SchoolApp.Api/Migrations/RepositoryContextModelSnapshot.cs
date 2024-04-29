@@ -289,6 +289,9 @@ namespace SchoolApp.Api.Migrations
                     b.Property<int>("Credit")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("StudentName")
                         .HasColumnType("nvarchar(max)");
 
