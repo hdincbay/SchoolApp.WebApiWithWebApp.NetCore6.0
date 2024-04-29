@@ -78,7 +78,7 @@ namespace SchoolApp.Api.Controllers
             }
             return NoContent();
         }
-        [HttpDelete("{id:int}")]
+        [HttpDelete("DeleteLessonType/{id:int}")]
         public async Task<IActionResult> DeleteLessonType([FromRoute] int id)
         {
             try

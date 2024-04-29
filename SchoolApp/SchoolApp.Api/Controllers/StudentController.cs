@@ -72,6 +72,7 @@ namespace SchoolApp.Api.Controllers
                     student.StudentName = updateStudentViewModel.StudentName;
                     student.StudentSurname = updateStudentViewModel.StudentSurname;
                     student.Credit = updateStudentViewModel.Credit;
+                    student.ImageUrl = updateStudentViewModel.ImageUrl;
                     await _manager.StudentService.UpdateOne(student);
                     return Ok("Öğrenci güncellendi.");
                 }
@@ -82,7 +83,7 @@ namespace SchoolApp.Api.Controllers
             }
             return NoContent();
         }
-        [HttpDelete("{id:int}")]
+        [HttpDelete("DeleteStudent/{id:int}")]
         public async Task<IActionResult> DeleteStudent([FromRoute] int id)
         {
             try
