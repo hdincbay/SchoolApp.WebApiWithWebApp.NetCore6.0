@@ -13,16 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\Champ.png",
-      "PackagePath": "staticwebassets\\images\\Champ.png"
+      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human1.jpg",
+      "PackagePath": "staticwebassets\\images\\human1.jpg"
     },
     {
-      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\Dele.png",
-      "PackagePath": "staticwebassets\\images\\Dele.png"
-    },
-    {
-      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg",
-      "PackagePath": "staticwebassets\\images\\pexels-dana-tentis-118658-262959.jpg"
+      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human2.jpg",
+      "PackagePath": "staticwebassets\\images\\human2.jpg"
     },
     {
       "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\js\\site.js",

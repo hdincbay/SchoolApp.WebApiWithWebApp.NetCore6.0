@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lWtA9xJ1e61u7TLvtzyRzPQQRg6yqefc6yd5ST4v8Cg=",
+  "Hash": "6LZ4d0JR9xCtmKzbNQLdDh7QnedAsASv0hZqUuUVgT0=",
   "Source": "SchoolApp.WebUI",
   "BasePath": "_content/SchoolApp.WebUI",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\Champ.png",
+      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human1.jpg",
       "SourceId": "SchoolApp.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\",
       "BasePath": "_content/SchoolApp.WebUI",
-      "RelativePath": "images/Champ.png",
+      "RelativePath": "images/human1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Champ.png"
+      "OriginalItemSpec": "wwwroot\\images\\human1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\Dele.png",
+      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human2.jpg",
       "SourceId": "SchoolApp.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\",
       "BasePath": "_content/SchoolApp.WebUI",
-      "RelativePath": "images/Dele.png",
+      "RelativePath": "images/human2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,26 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Dele.png"
-    },
-    {
-      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg",
-      "SourceId": "SchoolApp.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\",
-      "BasePath": "_content/SchoolApp.WebUI",
-      "RelativePath": "images/pexels-dana-tentis-118658-262959.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\human2.jpg"
     },
     {
       "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\js\\site.js",

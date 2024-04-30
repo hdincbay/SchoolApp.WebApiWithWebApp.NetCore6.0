@@ -1,4 +1,6 @@
-﻿namespace SchoolApp.WebUI.Models
+﻿using SchoolApp.WebUI.Areas.Admin.Models;
+
+namespace SchoolApp.WebUI.Models
 {
     public class Lesson
     {

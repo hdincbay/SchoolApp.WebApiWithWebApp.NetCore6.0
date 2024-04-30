@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Student>
+<div class="row">
+    <div class="d-flex justify-content-end">
+        <a class="btn btn-success ml-auto" asp-area="Admin" asp-controller="Student" asp-action="Create">
+            Create <i class="fa-solid fa-plus"></i>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Credit</th>
+                <th>Image</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.StudentName</td>
+                    <td>@item.StudentSurname</td>
+                    <td>@item.Credit</td>
+                    <td>
+                        <img src="@item.ImageUrl" width="200"/>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <a class="mx-1 btn btn-dark" asp-area="Admin" asp-controller="Student" asp-action="Update" asp-route-id="@item.StudentId">Update</a>
+                            <a class="mx-1 btn btn-light" asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@item.StudentId">Delete</a>
+                            <a class="mx-1 btn btn-info" asp-area="Admin" asp-controller="Student" asp-action="Get" asp-route-id="@item.StudentId">Get</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
