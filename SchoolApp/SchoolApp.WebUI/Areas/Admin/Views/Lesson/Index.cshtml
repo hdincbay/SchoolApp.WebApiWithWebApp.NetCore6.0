@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Lesson>
+
+<div class="display-6 text-center">Lesson List</div>
+<div class="row">
+    <div class="d-flex justify-content-end">
+        <a class="btn btn-success ml-auto" asp-area="Admin" asp-controller="Lesson" asp-action="Create">
+            Create <i class="fa-solid fa-plus"></i>
+        </a>
+    </div>
+</div>
+<table class="table table-striped text-center">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Lesson Type</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.LessonName</td>
+                <td>@item.LessonTypeId</td>
+                <td>@item.Price.ToString("c")</td>
+            </tr>
+        }
+    </tbody>
+</table>

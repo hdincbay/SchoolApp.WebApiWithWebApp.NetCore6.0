@@ -371,11 +371,13 @@ namespace SchoolApp.Api.Migrations
 
             modelBuilder.Entity("SchoolApp.Entities.Models.Lesson", b =>
                 {
-                    b.HasOne("SchoolApp.Entities.Models.LessonType", null)
+                    b.HasOne("SchoolApp.Entities.Models.LessonType", "LessonType")
                         .WithMany("Lessons")
                         .HasForeignKey("LessonTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("LessonType");
                 });
 
             modelBuilder.Entity("SchoolApp.Entities.Models.LessonType", b =>

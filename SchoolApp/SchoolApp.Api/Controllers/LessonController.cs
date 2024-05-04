@@ -13,12 +13,10 @@ namespace SchoolApp.Api.Controllers
     public class LessonController : ControllerBase
     {
         private readonly IServiceManager _manager;
-        private readonly RepositoryContext _context;
 
-        public LessonController(IServiceManager manager, RepositoryContext context)
+        public LessonController(IServiceManager manager)
         {
             _manager = manager;
-            _context = context;
         }
         [HttpGet("GetAllLessons")]
         public async Task<IActionResult> GetAllLessons()
@@ -107,28 +105,6 @@ namespace SchoolApp.Api.Controllers
             }
             return NoContent();
         }
-        [HttpPost("AddLessonToStudent")]
-        public async Task<IActionResult> AddLessonToStudent(int studentId, int lessonId)
-        {
-            try
-            {
-                var student = await _manager.StudentService.GetOne(studentId, true);
-                var lesson = await _manager.LessonService.GetOne(lessonId, true);
-
-                if (student == null || lesson == null)
-                {
-                    return NotFound("Öğrenci veya Ders bulunamadı!");
-                }
-
-                // Öğrencinin ders listesine dersi ekleyin
-                student?.Lessons?.Add(lesson);
-                _context.SaveChanges();
-                return Ok("Derse Öğrenci ekleme işlemi başarılı.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Error adding lesson to student: {ex.Message}");
-            }
-        }
+        
     }
 }

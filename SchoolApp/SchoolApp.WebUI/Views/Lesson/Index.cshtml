@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Lesson>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-9">
+        <div class="row">
+        @foreach(var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.LessonName</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@item.LessonTypeId</h6>
+                            <p class="card-text">@item.Description</p>
+                            <a href="#" class="card-link btn btn-light">Ürüne Git</a>
+                            <a href="#" class="card-link btn btn-dark">Sepete Ekle</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\human2.jpg"
     },
     {
+      "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human3.jpg",
+      "PackagePath": "staticwebassets\\images\\human3.jpg"
+    },
+    {
       "Id": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

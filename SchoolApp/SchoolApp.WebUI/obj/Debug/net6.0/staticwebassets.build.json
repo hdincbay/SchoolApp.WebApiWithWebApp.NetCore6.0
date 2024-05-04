@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6LZ4d0JR9xCtmKzbNQLdDh7QnedAsASv0hZqUuUVgT0=",
+  "Hash": "9fqe0AX79NlcqUos71kEohkjyzvKbErWSLYXrPzqu6A=",
   "Source": "SchoolApp.WebUI",
   "BasePath": "_content/SchoolApp.WebUI",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\human2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\images\\human3.jpg",
+      "SourceId": "SchoolApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\",
+      "BasePath": "_content/SchoolApp.WebUI",
+      "RelativePath": "images/human3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\human3.jpg"
     },
     {
       "Identity": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\wwwroot\\js\\site.js",

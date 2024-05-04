@@ -11,6 +11,7 @@ namespace SchoolApp.Entities.Models
         public int LessonId { get; set; }
         public string? LessonName { get; set; }
         public int LessonTypeId { get; set; }
+        public LessonType? LessonType { get; set; }
         public decimal Price { get; set; }
         public string? Description { get; set; }
         public ICollection<Student>? Students { get; set; }
