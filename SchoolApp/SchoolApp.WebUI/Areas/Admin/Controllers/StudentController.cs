@@ -77,11 +77,12 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                 var response = await client.ExecuteAsync(request);
                 if (response.IsSuccessStatusCode)
                 {
-                    TempData["ServiceResponse"] = "Öğrenci başarıyla oluşturuldu";
+                    log.Error("Öğrenci ekleme işlemi başarılı oldu.");
+                    return RedirectToAction("Index", "Student", "Admin");
                 }
                 else
                 {
-                    log.Error("Öğrenci oluşturma işlemi başarısız oldu.");
+                    log.Error("Öğrenci ekleme işlemi başarısız oldu.");
                 }
                 return View();
             }
@@ -91,7 +92,7 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
             }
         }
         [HttpGet]
-        public async Task<IActionResult> Update([FromRoute] int id)
+        public async Task<IActionResult> Update([FromRoute] int id, IFormFile file)
         {
             try
             {
@@ -103,7 +104,12 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                 {
                     var jsonData = response.Content;
                     var student = JsonConvert.DeserializeObject<Student>(jsonData is not null ? jsonData : "");
-                    return View(student);
+                    if(student is not null)
+                    {
+                        student.ImageUrl = student.ImageUrl?.Substring(8);
+                        return View(student);
+                    }
+                    
                 }
                 return View();
             }
