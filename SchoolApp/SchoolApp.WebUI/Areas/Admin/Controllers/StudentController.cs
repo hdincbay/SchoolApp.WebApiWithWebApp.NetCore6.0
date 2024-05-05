@@ -194,7 +194,10 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                         var request2 = new RestRequest(resource2, Method.Delete);
                         log.Debug("Gidilecek endpoint: " + resource1);
                         var response2 = await client2.ExecuteAsync(request2);
-                        log.Debug("İstek gerçekleştirildi...");
+                        if(response2.IsSuccessStatusCode)
+                        {
+                            log.Debug("İstek gerçekleştirildi...");
+                        }
                     }
                 }
                 else

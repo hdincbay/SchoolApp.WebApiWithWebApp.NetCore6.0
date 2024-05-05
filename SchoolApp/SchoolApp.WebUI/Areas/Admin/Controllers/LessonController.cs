@@ -166,5 +166,65 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                 return RedirectToAction("Error", "Home", ex.Message);
             }
         }
+        [HttpGet]
+        public async Task<IActionResult> Get([FromRoute]int id)
+        {
+            try
+            {
+                var resource = $"https://localhost:7081/api/Lesson/GetOneLesson/{id}";
+                var client = new RestClient();
+                var request = new RestRequest(resource, Method.Get);
+                var response = await client.ExecuteAsync(request);
+                if(response.IsSuccessStatusCode)
+                {
+                    var jsonData = response.Content;
+                    var lesson = JsonConvert.DeserializeObject<Lesson>(jsonData is not null ? jsonData : "");
+                    if(lesson is not null)
+                    {
+                        return View(lesson);
+                    }
+                }
+                return View();
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Error", "Home", ex.Message);
+            }
+        }
+        public async Task<IActionResult> Delete([FromRoute]int id)
+        {
+            try
+            {
+                var resource = $"https://localhost:7081/api/Lesson/GetOneLesson/{id}";
+                var client = new RestClient();
+                var request = new RestRequest(resource, Method.Get);
+                var response = await client.ExecuteAsync(request);
+                if(response.IsSuccessStatusCode)
+                {
+                    var jsonData = response.Content;
+                    var lesson = JsonConvert.DeserializeObject<Lesson>(jsonData is not null ? jsonData : "");
+                    if(lesson is not null)
+                    {
+                        var resource2 = $"https://localhost:7081/api/Lesson/DeleteLesson/{lesson.LessonId}";
+                        var client2 = new RestClient();
+                        var request2 = new RestRequest(resource2, Method.Delete);
+                        var response2 = await client2.ExecuteAsync(request2);
+                        if(response2.IsSuccessStatusCode)
+                        {
+                            log.Debug("İstek başarılı.");
+                        }
+                    }
+                    else
+                    {
+                        log.Error("Öğrenci bilgileri getirilemedi!");
+                    }
+                }
+                return RedirectToAction("Index", "Lesson");
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Error", "Home", ex.Message);
+            }
+        }
     }
 }
