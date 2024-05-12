@@ -22,21 +22,6 @@ namespace SchoolApp.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("LessonStudent", b =>
-                {
-                    b.Property<int>("LessonsLessonId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentsStudentId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LessonsLessonId", "StudentsStudentId");
-
-                    b.HasIndex("StudentsStudentId");
-
-                    b.ToTable("LessonStudent");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -306,19 +291,27 @@ namespace SchoolApp.Api.Migrations
                     b.ToTable("Students");
                 });
 
-            modelBuilder.Entity("LessonStudent", b =>
+            modelBuilder.Entity("SchoolApp.Entities.Models.StudentLesson", b =>
                 {
-                    b.HasOne("SchoolApp.Entities.Models.Lesson", null)
-                        .WithMany()
-                        .HasForeignKey("LessonsLessonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.HasOne("SchoolApp.Entities.Models.Student", null)
-                        .WithMany()
-                        .HasForeignKey("StudentsStudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("LessonId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LessonId");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("StudentLesson");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -383,9 +376,38 @@ namespace SchoolApp.Api.Migrations
                     b.Navigation("LessonType");
                 });
 
+            modelBuilder.Entity("SchoolApp.Entities.Models.StudentLesson", b =>
+                {
+                    b.HasOne("SchoolApp.Entities.Models.Lesson", "Lesson")
+                        .WithMany("StudentLessons")
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SchoolApp.Entities.Models.Student", "Student")
+                        .WithMany("StudentLessons")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lesson");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("SchoolApp.Entities.Models.Lesson", b =>
+                {
+                    b.Navigation("StudentLessons");
+                });
+
             modelBuilder.Entity("SchoolApp.Entities.Models.LessonType", b =>
                 {
                     b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("SchoolApp.Entities.Models.Student", b =>
+                {
+                    b.Navigation("StudentLessons");
                 });
 #pragma warning restore 612, 618
         }

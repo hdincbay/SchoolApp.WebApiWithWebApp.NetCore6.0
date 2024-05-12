@@ -17,5 +17,9 @@ namespace SchoolApp.Repositories
         public DbSet<Lesson>? Lessons { get; set; }
         public DbSet<LessonType>? LessonTypes { get; set; }
         public DbSet<Student>? Students { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }

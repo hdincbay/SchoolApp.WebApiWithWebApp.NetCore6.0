@@ -224,9 +224,9 @@ C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\scopedcss
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\scopedcss\bundle\SchoolApp.WebUI.styles.css
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\scopedcss\projectbundle\SchoolApp.WebUI.bundle.scp.css
-C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\SchoolApp.WebUI.csproj.CopyComplete
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\SchoolApp.WebUI.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\refint\SchoolApp.WebUI.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\SchoolApp.WebUI.pdb
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\SchoolApp.WebUI.genruntimeconfig.cache
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\ref\SchoolApp.WebUI.dll
+C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.WebUI\obj\Debug\net6.0\SchoolAp.6680DDD1.Up2Date

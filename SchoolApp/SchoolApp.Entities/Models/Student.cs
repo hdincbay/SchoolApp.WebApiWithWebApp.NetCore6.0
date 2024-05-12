@@ -12,8 +12,8 @@ namespace SchoolApp.Entities.Models
         public string? StudentName { get; set; }
         public string? StudentSurname { get; set; }
         public string? ImageUrl { get; set; }
-        public ICollection<Lesson>? Lessons { get; set; }
         public int Credit { get; set; }
+        public ICollection<StudentLesson>? StudentLessons { get; set; }
 
     }
 }

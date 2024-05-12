@@ -378,3 +378,23 @@
 2024-05-05 10:25:46,755 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.LessonController - İstek başarılı.
 2024-05-05 10:25:50,993 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.LessonController - Gelen Json tipindeki veri: [{"lessonId":1,"lessonName":"Piyano","lessonTypeId":1,"lessonType":null,"price":120.00,"description":"Uzman kadromuzla piyano eğitimi vermekteyiz.","students":null}]
 2024-05-05 10:25:51,324 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.LessonController - Json tipindeki veri Deserialize edildi ve View'e yönlendirildi.
+2024-05-12 12:07:43,056 [13] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Gidilecek endpoint: https://localhost:7081/api/Student/CreateStudent
+2024-05-12 12:07:43,081 [13] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Client oluşturuldu.
+2024-05-12 12:07:43,085 [13] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Akış oluşturuluyor...
+2024-05-12 12:07:43,096 [4] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Akış oluşturuldu.
+2024-05-12 12:07:43,374 [4] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Requestin Json Body'si: {"StudentId":0,"StudentName":"Halil","StudentSurname":"Bora","Lessons":null,"ImageUrl":"/images/human1.jpg","Credit":40}
+2024-05-12 12:07:46,541 [22] ERROR SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Öğrenci ekleme işlemi başarılı oldu.
+2024-05-12 12:07:46,556 [22] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Öğrenci Listesinin endpointi: https://localhost:7081/api/Student/GetAllStudents
+2024-05-12 12:07:46,556 [22] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Client oluşturuldu.
+2024-05-12 12:07:46,556 [22] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Get methodu ile Request oluşturuldu.
+2024-05-12 12:07:46,966 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - İstek gerçekleştirildi...
+2024-05-12 12:07:46,966 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - İstek başarılı.
+2024-05-12 12:07:46,966 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Gelen Json tipindeki veri: [{"studentId":1,"studentName":"Halil","studentSurname":"Bora","imageUrl":"/images/human1.jpg","credit":40,"studentLessons":null}]
+2024-05-12 12:07:47,038 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Json tipindeki veri Deserialize edildi ve View'e yönlendirildi.
+2024-05-12 12:08:02,227 [25] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Öğrenci Listesinin endpointi: https://localhost:7081/api/Student/GetAllStudents
+2024-05-12 12:08:02,228 [25] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Client oluşturuldu.
+2024-05-12 12:08:02,228 [25] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Get methodu ile Request oluşturuldu.
+2024-05-12 12:08:02,255 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - İstek gerçekleştirildi...
+2024-05-12 12:08:02,255 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - İstek başarılı.
+2024-05-12 12:08:02,255 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Gelen Json tipindeki veri: [{"studentId":1,"studentName":"Halil","studentSurname":"Bora","imageUrl":"/images/human1.jpg","credit":40,"studentLessons":null}]
+2024-05-12 12:08:02,256 [7] DEBUG SchoolApp.WebUI.Areas.Admin.Controllers.StudentController - Json tipindeki veri Deserialize edildi ve View'e yönlendirildi.

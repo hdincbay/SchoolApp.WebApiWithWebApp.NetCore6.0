@@ -10,8 +10,8 @@ C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\School
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.AssemblyInfoInputs.cache
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.AssemblyInfo.cs
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.csproj.CoreCompileInputs.cache
-C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.csproj.CopyComplete
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\refint\SchoolApp.Services.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolApp.Services.pdb
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\ref\SchoolApp.Services.dll
+C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Services\obj\Debug\net6.0\SchoolAp.2FE8EBED.Up2Date

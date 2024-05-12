@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TsnNnhiLg1n5WFJNtFO1GLAQEGgsROcZkzHgosB4oE5OaP8ZJrn5JZ7HP0VUQe6pUV3Q6favKxtmGmKrUa9ivw==",
+  "dgSpecHash": "u3rL3PWJsx20Bbn8Fgoe2OWbIV4SupD6zdv2VqvUhQSbpEhIPJ1M2dM2W73mPubq/pTGO7MlfPvec8FVoxra4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\hdinc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

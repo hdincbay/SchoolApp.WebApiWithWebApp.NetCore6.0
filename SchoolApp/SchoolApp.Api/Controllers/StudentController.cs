@@ -100,5 +100,21 @@ namespace SchoolApp.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        //[HttpPost("CreateLessonByStudentId")]
+        //public async Task<IActionResult> CreateLessonByStudentId(int id, StudentLesson studentLesson)
+        //{
+        //    try
+        //    {
+        //        var student = await _manager.StudentService.GetOne(id, true);
+        //        if(student is not null)
+        //        {
+        //            student.StudentLessons.Add([])
+        //        }
+        //    }
+        //    catch(Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
     }
 }

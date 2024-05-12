@@ -70,9 +70,10 @@ C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\staticwebas
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SchoolApp.Api.props
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\scopedcss\bundle\SchoolApp.Api.styles.css
-C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.csproj.CopyComplete
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\refint\SchoolApp.Api.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.pdb
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.genruntimeconfig.cache
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\ref\SchoolApp.Api.dll
+C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolAp.B73AE743.Up2Date
+C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
