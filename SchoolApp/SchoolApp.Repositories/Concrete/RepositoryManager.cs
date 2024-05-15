@@ -12,14 +12,16 @@ namespace SchoolApp.Repositories.Concrete
         private readonly ILessonRepository _lessonRepository;
         private readonly ILessonTypeRepository _lessonTypeRepository;
         private readonly IStudentRepository _studentRepository;
+        private readonly IStudentLessonRepository _studentLessonRepository;
         private readonly RepositoryContext _context;
 
-        public RepositoryManager(ILessonRepository lessonRepository, ILessonTypeRepository lessonTypeRepository, IStudentRepository studentRepository, RepositoryContext context)
+        public RepositoryManager(ILessonRepository lessonRepository, ILessonTypeRepository lessonTypeRepository, IStudentRepository studentRepository, RepositoryContext context, IStudentLessonRepository studentLessonRepository)
         {
             _lessonRepository = lessonRepository;
             _lessonTypeRepository = lessonTypeRepository;
             _studentRepository = studentRepository;
             _context = context;
+            _studentLessonRepository = studentLessonRepository;
         }
 
         public ILessonRepository LessonRepository => _lessonRepository;
@@ -27,6 +29,8 @@ namespace SchoolApp.Repositories.Concrete
         public ILessonTypeRepository LessonTypeRepository => _lessonTypeRepository;
 
         public IStudentRepository StudentRepository => _studentRepository;
+
+        public IStudentLessonRepository StudentLessonRepository => _studentLessonRepository;
 
         public void Save()
         {

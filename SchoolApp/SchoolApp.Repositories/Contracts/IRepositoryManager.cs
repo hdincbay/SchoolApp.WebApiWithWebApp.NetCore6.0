@@ -11,6 +11,7 @@ namespace SchoolApp.Repositories.Contracts
         public ILessonRepository LessonRepository { get; }
         public ILessonTypeRepository LessonTypeRepository { get; }
         public IStudentRepository StudentRepository { get; }
+        public IStudentLessonRepository StudentLessonRepository { get; }
         public void Save();
     }
 }
