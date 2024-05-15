@@ -24,11 +24,13 @@ builder.Services.AddScoped<ILessonRepository, LessonRepository>();
 builder.Services.AddScoped<ILessonTypeRepository, LessonTypeRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
+builder.Services.AddScoped<IStudentLessonRepository, StudentLessonRepository>();
 
 builder.Services.AddScoped<ILessonService, LessonManager>();
 builder.Services.AddScoped<ILessonTypeService, LessonTypeManager>();
 builder.Services.AddScoped<IStudentService, StudentManager>();
 builder.Services.AddScoped<IServiceManager, ServiceManager>();
+builder.Services.AddScoped<IStudentLessonService, StudentLessonManager>();
 
 var app = builder.Build();
 

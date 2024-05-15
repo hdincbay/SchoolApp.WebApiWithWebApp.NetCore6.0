@@ -24,24 +24,34 @@ namespace SchoolApp.Services.Concrete
             _manager.Save();
         }
 
-        public Task DeleteOne(StudentLesson studentLesson)
+        public async Task DeleteOne(StudentLesson studentLesson)
         {
-            throw new NotImplementedException();
+            var model = await _manager.StudentLessonRepository.GetOneStudentLesson(studentLesson.Id, true);
+            if(model is not null)
+            {
+                await _manager.StudentLessonRepository.DeleteOneStudentLesson(model);
+                _manager.Save();
+            }
         }
 
-        public Task<IEnumerable<StudentLesson>> GetAll(bool trackChanges)
+        public async Task<IEnumerable<StudentLesson>> GetAll(bool trackChanges)
         {
-            throw new NotImplementedException();
+            return await _manager.StudentLessonRepository.GetAllStudentLessons(trackChanges);
         }
 
-        public Task<StudentLesson?> GetOne(int id, bool trackChanges)
+        public async Task<StudentLesson?> GetOne(int id, bool trackChanges)
         {
-            throw new NotImplementedException();
+            return await _manager.StudentLessonRepository.GetOneStudentLesson(id, trackChanges);
         }
 
-        public Task UpdateOne(StudentLesson studentLesson)
+        public async Task UpdateOne(StudentLesson studentLesson)
         {
-            throw new NotImplementedException();
+            var model = await _manager.StudentLessonRepository.GetOneStudentLesson(studentLesson.Id, true);
+            if(model is not null)
+            {
+                await _manager.StudentLessonRepository.UpdateOneStudentLesson(model);
+                _manager.Save();
+            }
         }
     }
 }

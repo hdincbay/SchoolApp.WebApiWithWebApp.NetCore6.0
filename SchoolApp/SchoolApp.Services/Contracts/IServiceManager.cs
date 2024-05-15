@@ -11,5 +11,6 @@ namespace SchoolApp.Services.Contracts
         public ILessonService LessonService { get; }
         public ILessonTypeService LessonTypeService { get; }
         public IStudentService StudentService { get; }
+        public IStudentLessonService StudentLessonService { get; }
     }
 }

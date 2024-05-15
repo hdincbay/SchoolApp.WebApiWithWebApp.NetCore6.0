@@ -20,12 +20,13 @@ namespace SchoolApp.Api.Controllers
             _manager = manager;
         }
         [HttpGet("GetAllStudentWithLesson")]
-        public async Task<IActionResult> GetAllStudentWithLesson(int id)
+        public async Task<IActionResult> GetAllStudentWithLesson()
         {
             try
             {
-                
-                return Ok();
+                var model = await _manager.StudentLessonService.GetAll(false);
+
+                return Ok(model);
             }
             catch (Exception ex)
             {

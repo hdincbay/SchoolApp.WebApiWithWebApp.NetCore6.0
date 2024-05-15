@@ -20,7 +20,7 @@ namespace SchoolApp.Repositories.Concrete
 
         public async Task<IQueryable<StudentLesson>> GetAllStudentLessons(bool trackChanges) => await  FindAll(trackChanges);
 
-        public  async Task<StudentLesson?> GetOneStudentLessonByStudentId(int id, bool trackChanges) => await FindByCondition(sl => sl.Id.Equals(id), trackChanges);
+        public  async Task<StudentLesson?> GetOneStudentLesson(int id, bool trackChanges) => await FindByCondition(sl => sl.Id.Equals(id), trackChanges);
 
         public Task UpdateOneStudentLesson(StudentLesson studentLesson) => Update(studentLesson);
     }

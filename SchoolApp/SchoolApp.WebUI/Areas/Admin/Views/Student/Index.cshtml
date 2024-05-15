@@ -30,7 +30,7 @@
                         <img src="@item.ImageUrl" width="200"/>
                     </td>
                     <td>
-                        <div class="d-flex">
+                        <div class="btn-group">
                             <a class="btn btn-success" asp-area="Admin" asp-controller="Student" asp-action="Update" asp-route-id="@item.StudentId">Update</a>
                             <a class="btn btn-outline-success" asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@item.StudentId">Delete</a>
                             <a class="btn btn-success" asp-area="Admin" asp-controller="Student" asp-action="Get" asp-route-id="@item.StudentId">Details</a>
