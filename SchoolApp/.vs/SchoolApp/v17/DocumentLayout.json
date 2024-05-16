@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\controllers\\studentlessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\studentlessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\viewmodels\\studentlessonviewmodels\\updatestudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\viewmodels\\studentlessonviewmodels\\updatestudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\viewmodels\\studentlessonviewmodels\\createstudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\viewmodels\\studentlessonviewmodels\\createstudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\viewmodels\\studentviewmodels\\createstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\viewmodels\\studentviewmodels\\createstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\viewmodels\\studentviewmodels\\updatestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\viewmodels\\studentviewmodels\\updatestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.webui\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.webui\\areas\\admin\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\controllers\\studentlessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\studentlessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C2CA0C6-4FCB-4E81-9E19-BF86FF1D76F0}|SchoolApp.Services\\SchoolApp.Services.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.services\\concrete\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,14 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C736F070-EDF6-488B-BF37-22D0A397878F}|SchoolApp.Repositories\\SchoolApp.Repositories.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.repositories\\concrete\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C736F070-EDF6-488B-BF37-22D0A397878F}|SchoolApp.Repositories\\SchoolApp.Repositories.csproj|solutionrelative:schoolapp.repositories\\concrete\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\viewmodels\\studentlessonviewmodels\\getstudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\viewmodels\\studentlessonviewmodels\\getstudentlessonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\source\\repos\\schoolapp\\schoolapp.webui\\areas\\admin\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -206,43 +218,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IStudentLessonService.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
-              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
-              "RelativeToolTip": "SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:43:21.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentLesson.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\StudentLesson.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Entities\\Models\\StudentLesson.cs",
-              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\StudentLesson.cs",
-              "RelativeToolTip": "SchoolApp.Entities\\Models\\StudentLesson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T08:55:47.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UpdateStudentLessonViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\UpdateStudentLessonViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\UpdateStudentLessonViewModel.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\UpdateStudentLessonViewModel.cs",
+              "RelativeToolTip": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\UpdateStudentLessonViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:01:51.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentViewModels\\CreateStudentViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\ViewModels\\StudentViewModels\\CreateStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentViewModels\\CreateStudentViewModel.cs",
+              "RelativeToolTip": "SchoolApp.Api\\ViewModels\\StudentViewModels\\CreateStudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:01:34.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateStudentLessonViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\CreateStudentLessonViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\CreateStudentLessonViewModel.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\CreateStudentLessonViewModel.cs",
+              "RelativeToolTip": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\CreateStudentLessonViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:01:01.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "StudentLessonController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentLessonController.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\StudentLessonController.cs",
               "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentLessonController.cs",
               "RelativeToolTip": "SchoolApp.Api\\Controllers\\StudentLessonController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBoAAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T09:31:13.762Z",
               "EditorCaption": ""
@@ -250,19 +275,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T08:06:37.076Z",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolApp.Api\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAArwC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:17:06.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "UpdateStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentViewModels\\UpdateStudentViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\ViewModels\\StudentViewModels\\UpdateStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentViewModels\\UpdateStudentViewModel.cs",
+              "RelativeToolTip": "SchoolApp.Api\\ViewModels\\StudentViewModels\\UpdateStudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:01:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Concrete\\ServiceManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Services\\Concrete\\ServiceManager.cs",
@@ -270,25 +308,60 @@
               "RelativeToolTip": "SchoolApp.Services\\Concrete\\ServiceManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:15:32.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T20:15:32.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
               "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAvwHcAAAAIAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAvwHcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T10:25:22.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "IStudentLessonService.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
+              "RelativeToolTip": "SchoolApp.Services\\Contracts\\IStudentLessonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T18:43:21.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T08:06:37.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentLesson.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\StudentLesson.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Entities\\Models\\StudentLesson.cs",
+              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\StudentLesson.cs",
+              "RelativeToolTip": "SchoolApp.Entities\\Models\\StudentLesson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T08:55:47.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "StudentLessonManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Concrete\\StudentLessonManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Services\\Concrete\\StudentLessonManager.cs",
@@ -296,12 +369,11 @@
               "RelativeToolTip": "SchoolApp.Services\\Concrete\\StudentLessonManager.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowDQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:45:25.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T18:45:25.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\IServiceManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Services\\Contracts\\IServiceManager.cs",
@@ -309,12 +381,11 @@
               "RelativeToolTip": "SchoolApp.Services\\Contracts\\IServiceManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:15:21.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T20:15:21.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "StudentLessonRepository.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Concrete\\StudentLessonRepository.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Concrete\\StudentLessonRepository.cs",
@@ -322,12 +393,11 @@
               "RelativeToolTip": "SchoolApp.Repositories\\Concrete\\StudentLessonRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:47:59.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T11:47:59.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Program.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Program.cs",
@@ -335,12 +405,11 @@
               "RelativeToolTip": "SchoolApp.Api\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T07:53:04.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T07:53:04.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "IStudentLessonRepository.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Contracts\\IStudentLessonRepository.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Contracts\\IStudentLessonRepository.cs",
@@ -348,12 +417,11 @@
               "RelativeToolTip": "SchoolApp.Repositories\\Contracts\\IStudentLessonRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:44:04.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T11:44:04.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "LessonTypeRepository.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Concrete\\LessonTypeRepository.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Concrete\\LessonTypeRepository.cs",
@@ -361,12 +429,11 @@
               "RelativeToolTip": "SchoolApp.Repositories\\Concrete\\LessonTypeRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:33:50.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T18:33:50.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "LessonManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Concrete\\LessonManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Services\\Concrete\\LessonManager.cs",
@@ -378,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ILessonService.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\Contracts\\ILessonService.cs",
               "RelativeDocumentMoniker": "SchoolApp.Services\\Contracts\\ILessonService.cs",
@@ -390,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "RepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Concrete\\RepositoryManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Concrete\\RepositoryManager.cs",
@@ -402,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IRepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Contracts\\IRepositoryManager.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Contracts\\IRepositoryManager.cs",
@@ -414,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "RepositorBase.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Concrete\\RepositorBase.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Concrete\\RepositorBase.cs",
@@ -426,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ILessonRepository.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Contracts\\ILessonRepository.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Contracts\\ILessonRepository.cs",
@@ -438,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LessonRepository.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\Concrete\\LessonRepository.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\Concrete\\LessonRepository.cs",
@@ -450,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "20240426194014_mig_2.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240426194014_mig_2.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240426194014_mig_2.cs",
@@ -462,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "SchoolApp.Entities\\Models\\Lesson.cs",
@@ -474,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "20240427141527_mig_3.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240427141527_mig_3.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240427141527_mig_3.cs",
@@ -486,32 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "SchoolApp.Api\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAMwC4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T19:17:06.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetStudentLessonViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\GetStudentLessonViewModel.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\GetStudentLessonViewModel.cs",
-              "ToolTip": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\GetStudentLessonViewModel.cs",
-              "RelativeToolTip": "SchoolApp.Api\\ViewModels\\StudentLessonViewModels\\GetStudentLessonViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T09:58:39.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Create.cshtml",
@@ -524,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\Student.cs",
               "RelativeDocumentMoniker": "SchoolApp.Entities\\Models\\Student.cs",
@@ -536,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "RepositoryContext.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "SchoolApp.Repositories\\RepositoryContext.cs",
@@ -548,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "20240422194614_mig_1.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240422194614_mig_1.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240422194614_mig_1.cs",
@@ -560,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "20240428130124_mig_4.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240428130124_mig_4.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240428130124_mig_4.cs",
@@ -572,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "20240501101847_mig_5.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240501101847_mig_5.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240501101847_mig_5.cs",
@@ -584,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "20240505073026_mig_6.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Migrations\\20240505073026_mig_6.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Migrations\\20240505073026_mig_6.cs",
@@ -596,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Update.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Update.cshtml",
@@ -608,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "LessonController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
@@ -621,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "LessonController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\LessonController.cs",
@@ -633,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Index.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Index.cshtml",
@@ -645,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Models\\Lesson.cs",
@@ -657,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Get.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Get.cshtml",
@@ -669,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Create.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Lesson\\Create.cshtml",
@@ -681,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Update.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Update.cshtml",
@@ -693,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Get.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\Student\\Get.cshtml",
@@ -705,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "LessonController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Controllers\\LessonController.cs",
@@ -718,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "LessonType.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Models\\LessonType.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Models\\LessonType.cs",
@@ -730,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Controllers\\HomeController.cs",
@@ -742,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -754,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "LessonType.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\Models\\LessonType.cs",
               "RelativeDocumentMoniker": "SchoolApp.Entities\\Models\\LessonType.cs",
@@ -766,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Models\\Student.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Models\\Student.cs",
@@ -778,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.WebUI\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Models\\Lesson.cs",
@@ -790,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\appsettings.json",
               "RelativeDocumentMoniker": "SchoolApp.Api\\appsettings.json",
@@ -802,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "LessonTypeController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\Controllers\\LessonTypeController.cs",
               "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\LessonTypeController.cs",
