@@ -552,7 +552,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10"
         },
         "runtime": {
-          "SchoolApp.Entities.dll": {}
+          "SchoolApp.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SchoolApp.Repositories/1.0.0": {
@@ -561,7 +564,10 @@
           "SchoolApp.Entities": "1.0.0"
         },
         "runtime": {
-          "SchoolApp.Repositories.dll": {}
+          "SchoolApp.Repositories.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SchoolApp.Services/1.0.0": {
@@ -569,7 +575,10 @@
           "SchoolApp.Repositories": "1.0.0"
         },
         "runtime": {
-          "SchoolApp.Services.dll": {}
+          "SchoolApp.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

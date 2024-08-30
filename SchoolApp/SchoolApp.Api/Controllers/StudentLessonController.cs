@@ -88,6 +88,9 @@ namespace SchoolApp.Api.Controllers
                     LessonId = createStudentLessonViewModel.LessonId,
                     StudentId = createStudentLessonViewModel.StudentId
                 });
+                var lesson = await _manager.LessonService.GetOne(createStudentLessonViewModel.LessonId, true);
+                if (lesson is not null)
+                    lesson.Capacity = lesson.Capacity - 1;
                 return Ok("Öğrenci-Ders ilişkisi eklendi.");
             }
             catch(Exception ex)

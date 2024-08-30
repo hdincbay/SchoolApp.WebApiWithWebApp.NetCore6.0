@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3rL3PWJsx20Bbn8Fgoe2OWbIV4SupD6zdv2VqvUhQSbpEhIPJ1M2dM2W73mPubq/pTGO7MlfPvec8FVoxra4g==",
+  "dgSpecHash": "q0WYc02juG0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hdinc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",

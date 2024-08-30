@@ -1,0 +1,318 @@
+[
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonController",
+    "Method": "CreateOneLesson",
+    "RelativePath": "api/Lesson/CreateOneLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createLessonViewModel",
+        "Type": "SchoolApp.Api.ViewModels.LessonViewModels.CreateLessonViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonController",
+    "Method": "DeleteLesson",
+    "RelativePath": "api/Lesson/DeleteLesson/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonController",
+    "Method": "GetAllLessons",
+    "RelativePath": "api/Lesson/GetAllLessons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonController",
+    "Method": "GetOneLesson",
+    "RelativePath": "api/Lesson/GetOneLesson/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonController",
+    "Method": "UpdateLesson",
+    "RelativePath": "api/Lesson/UpdateLesson/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateLessonViewModel",
+        "Type": "SchoolApp.Api.ViewModels.LessonViewModels.UpdateLessonViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonTypeController",
+    "Method": "CreateLessonType",
+    "RelativePath": "api/LessonType/CreateLessonType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createlessonTypeViewModel",
+        "Type": "SchoolApp.Api.ViewModels.LessonTypeViewModels.CreateLessonTypeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonTypeController",
+    "Method": "DeleteLessonType",
+    "RelativePath": "api/LessonType/DeleteLessonType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonTypeController",
+    "Method": "GetAllLessonTypes",
+    "RelativePath": "api/LessonType/GetAllLessonType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonTypeController",
+    "Method": "GetOneLessonType",
+    "RelativePath": "api/LessonType/GetOneLessonType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.LessonTypeController",
+    "Method": "UpdateLessonType",
+    "RelativePath": "api/LessonType/UpdateLessonType/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateLessonTypeViewModel",
+        "Type": "SchoolApp.Api.ViewModels.LessonTypeViewModels.UpdateLessonTypeViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "api/Student/CreateStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createStudentViewModel",
+        "Type": "SchoolApp.Api.ViewModels.StudentViewModels.CreateStudentViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/DeleteStudent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentController",
+    "Method": "GetOneStudent",
+    "RelativePath": "api/Student/GetOneStudent/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Student/UpdateStudent/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStudentViewModel",
+        "Type": "SchoolApp.Api.ViewModels.StudentViewModels.UpdateStudentViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "CreateStudentLesson",
+    "RelativePath": "api/StudentLesson/CreateStudentLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createStudentLessonViewModel",
+        "Type": "SchoolApp.Api.ViewModels.StudentLessonViewModels.CreateStudentLessonViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "GetAllStudentByLessonId",
+    "RelativePath": "api/StudentLesson/GetAllStudentByLessonId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "GetAllStudentWithLesson",
+    "RelativePath": "api/StudentLesson/GetAllStudentWithLesson",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "GetAllLessonByStudentId",
+    "RelativePath": "api/StudentLesson/GetOneStudentWithLesson/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "UpdateStudentLesson",
+    "RelativePath": "api/StudentLesson/UpdateStudentLesson/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStudentLessonViewModel",
+        "Type": "SchoolApp.Api.ViewModels.StudentLessonViewModels.UpdateStudentLessonViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

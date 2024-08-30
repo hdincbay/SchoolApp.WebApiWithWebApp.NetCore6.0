@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U9w1I9nwyPB0L/54FA7Vis28p5Py0asQzaALoPxtrH/kzAADCQHsdFP8LF9NAmri7K2nG0Xh8WffcYkW8e8IeA==",
+  "dgSpecHash": "ABCq4CkLK7o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
+  "projectFilePath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.10\\microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",

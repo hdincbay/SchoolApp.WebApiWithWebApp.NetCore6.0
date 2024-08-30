@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj": {}
+    "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj": {
+    "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
         "projectName": "SchoolApp.Api",
-        "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
+        "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\SchoolApp.Api.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Api\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj"
+              "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj"
               }
             }
           }
@@ -83,18 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj": {
+    "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj",
         "projectName": "SchoolApp.Entities",
-        "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj",
+        "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,6 +106,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -149,18 +151,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj": {
+    "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj",
         "projectName": "SchoolApp.Repositories",
-        "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj",
+        "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,14 +173,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj"
+              "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Entities\\SchoolApp.Entities.csproj"
               }
             }
           }
@@ -219,18 +222,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj": {
+    "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
         "projectName": "SchoolApp.Services",
-        "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
+        "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\SchoolApp.Services.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -241,14 +244,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\source\\repos\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj"
+              "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Repositories\\SchoolApp.Repositories.csproj"
               }
             }
           }
@@ -283,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

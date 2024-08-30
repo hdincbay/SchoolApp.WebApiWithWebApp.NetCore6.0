@@ -10,3 +10,16 @@ C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\School
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\refint\SchoolApp.Entities.dll
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.pdb
 C:\Users\hdinc\source\repos\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\ref\SchoolApp.Entities.dll
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\bin\Debug\net6.0\SchoolApp.Entities.deps.json
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\bin\Debug\net6.0\SchoolApp.Entities.dll
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\bin\Debug\net6.0\SchoolApp.Entities.pdb
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.csproj.AssemblyReference.cache
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.AssemblyInfoInputs.cache
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.AssemblyInfo.cs
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.sourcelink.json
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.dll
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\refint\SchoolApp.Entities.dll
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\SchoolApp.Entities.pdb
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Entities\obj\Debug\net6.0\ref\SchoolApp.Entities.dll

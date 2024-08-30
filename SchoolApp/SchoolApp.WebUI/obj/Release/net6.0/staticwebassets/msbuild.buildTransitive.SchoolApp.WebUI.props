@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SchoolApp.WebUI.props" />
-</Project>

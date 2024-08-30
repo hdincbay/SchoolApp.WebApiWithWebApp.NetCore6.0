@@ -56,6 +56,7 @@ namespace SchoolApp.Api.Controllers
                     Description = createLessonViewModel.Description,
                     LessonTypeId = createLessonViewModel.LessonTypeId,
                     Price = createLessonViewModel.Price,
+                    Capacity = createLessonViewModel.Capacity
                 };
                 await _manager.LessonService.CreateOne(lesson);
                 return Ok("Ders eklendi.");
@@ -77,6 +78,7 @@ namespace SchoolApp.Api.Controllers
                     lesson.LessonName = updateLessonViewModel.LessonName;
                     lesson.LessonTypeId = updateLessonViewModel.LessonTypeId;
                     lesson.Price = updateLessonViewModel.Price;
+                    lesson.Capacity = updateLessonViewModel.Capacity;
                     await _manager.LessonService.UpdateOne(lesson);
                     return Ok("Ders güncellendi.");
                 }
