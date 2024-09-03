@@ -254,6 +254,22 @@
   },
   {
     "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
+    "Method": "DeleteStudentLesson",
+    "RelativePath": "api/StudentLesson/DeleteStudentLesson",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStudentLessonViewModel",
+        "Type": "SchoolApp.Api.ViewModels.StudentLessonViewModels.UpdateStudentLessonViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
     "Method": "GetAllStudentByLessonId",
     "RelativePath": "api/StudentLesson/GetAllStudentByLessonId/{id}",
     "HttpMethod": "GET",
@@ -286,27 +302,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolApp.Api.Controllers.StudentLessonController",
-    "Method": "UpdateStudentLesson",
-    "RelativePath": "api/StudentLesson/UpdateStudentLesson/{id}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "updateStudentLessonViewModel",
-        "Type": "SchoolApp.Api.ViewModels.StudentLessonViewModels.UpdateStudentLessonViewModel",
-        "IsRequired": true
-      },
       {
         "Name": "id",
         "Type": "System.Int32",

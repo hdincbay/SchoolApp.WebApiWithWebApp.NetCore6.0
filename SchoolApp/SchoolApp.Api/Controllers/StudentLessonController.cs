@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SchoolApp.Api.ViewModels.StudentLessonViewModels;
 using SchoolApp.Entities.Models;
+using SchoolApp.Repositories;
 using SchoolApp.Services.Contracts;
 using System.Text.Json.Nodes;
 
@@ -15,10 +16,12 @@ namespace SchoolApp.Api.Controllers
     public class StudentLessonController : ControllerBase
     {
         private readonly IServiceManager _manager;
+        private readonly RepositoryContext _context;
 
-        public StudentLessonController(IServiceManager manager)
+        public StudentLessonController(IServiceManager manager, RepositoryContext context)
         {
             _manager = manager;
+            _context = context;
         }
         [HttpGet("GetAllStudentWithLesson")]
         public async Task<IActionResult> GetAllStudentWithLesson()
@@ -83,6 +86,12 @@ namespace SchoolApp.Api.Controllers
         {
             try
             {
+                var slList = await _manager.StudentLessonService.GetAll(false);
+                var slListQuery = slList.AsQueryable();
+                var slListQuerySearch = slListQuery.Where(sl => sl.LessonId.Equals(createStudentLessonViewModel.LessonId) && sl.StudentId.Equals(createStudentLessonViewModel.StudentId));
+                if (slListQuerySearch is not null)
+                    return BadRequest("Öğrenci-Ders ilişkisi bulunmaktadır.");
+                
                 await _manager.StudentLessonService.CreateOne(new StudentLesson()
                 {
                     LessonId = createStudentLessonViewModel.LessonId,
@@ -91,6 +100,7 @@ namespace SchoolApp.Api.Controllers
                 var lesson = await _manager.LessonService.GetOne(createStudentLessonViewModel.LessonId, true);
                 if (lesson is not null)
                     lesson.Capacity = lesson.Capacity - 1;
+                await _manager.LessonService.UpdateOne(lesson!);
                 return Ok("Öğrenci-Ders ilişkisi eklendi.");
             }
             catch(Exception ex)
@@ -98,23 +108,24 @@ namespace SchoolApp.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPost("UpdateStudentLesson/{id:int}")]
-        public async Task<IActionResult> UpdateStudentLesson([FromBody] UpdateStudentLessonViewModel updateStudentLessonViewModel, [FromRoute] int id)
+        [HttpDelete("DeleteStudentLesson")]
+        public async Task<IActionResult> DeleteStudentLesson([FromBody] UpdateStudentLessonViewModel updateStudentLessonViewModel)
         {
             try
             {
-                var studentLesson = await _manager.StudentLessonService.GetOne(id, true);
-                if(studentLesson is not null)
-                {
-                    studentLesson.LessonId = updateStudentLessonViewModel.LessonId;
-                    studentLesson.StudentId = updateStudentLessonViewModel.StudentId;
-                    await _manager.StudentLessonService.UpdateOne(studentLesson);
-                    return Ok("Öğrenci-Ders ilişkisi güncellendi.");
-                }
-                else
-                {
-                    return BadRequest("Öğrenci-Ders ilişkisi bulunamadı!");
-                }
+                var studentLessonList = await _manager.StudentLessonService.GetAll(false);
+                var studentLessonQuery = studentLessonList.AsQueryable();
+                var studentLessonSearch = studentLessonQuery.Where(sl => sl.StudentId.Equals(updateStudentLessonViewModel.StudentId) && sl.LessonId.Equals(updateStudentLessonViewModel.LessonId)).SingleOrDefault();
+                if (studentLessonSearch is null)
+                    return BadRequest("Öğrenci-Ders ilişkisi bulunamadı.");
+                var lesson = await _manager.LessonService.GetOne(updateStudentLessonViewModel.LessonId, true);
+                if(lesson is not null)
+                    lesson.Capacity = lesson.Capacity + 1;
+                
+                await _manager.LessonService.UpdateOne(lesson!);
+                await _manager.StudentLessonService.DeleteOne(studentLessonSearch);
+                return Ok("Öğrenci-Ders ilişkisi kaldırıldı.");
+                
             }
             catch(Exception ex)
             {
