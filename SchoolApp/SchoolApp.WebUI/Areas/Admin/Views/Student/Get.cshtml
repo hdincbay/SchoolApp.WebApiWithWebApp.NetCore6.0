@@ -1,10 +1,40 @@
 ﻿@model Student
 
 <div class="container text-center">
-    <div class="">
-        <img src="@Model.ImageUrl" style="width: 50vw"/>
-    </div>
-    <div class="my-3 display-6">
-        @Model.StudentName
-    </div>
+    <form asp-controller="Student" asp-action="AddRole" enctype="multipart/form-data" method="post">
+        <div class="row d-flex">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    @if (Model.ImageUrl.Contains("/"))
+                    {
+                        <img src="@Model.ImageUrl" style="width: 50vw" alt="Student Image" />
+                    }
+                    else
+                    {
+                        <i class="fa-solid fa-user"></i>
+                    }
+                </div>
+            </div>
+            <div class="col-md-4">
+                <input asp-for="@Model.StudentName" value="@Model.StudentName" type="hidden"/>
+                <input asp-for="@Model.StudentSurname" value="@Model.StudentSurname" type="hidden"/>
+                <input asp-for="@Model.StudentId" value="@Model.StudentId" type="hidden"/>
+                <input asp-for="@Model.ImageUrl" value="@Model.ImageUrl" type="hidden"/>
+                @string.Concat(Model.StudentName + " " + Model.StudentSurname)
+            </div>
+            <div class="col-md-4">
+                <select name="selectedRole" class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                    <option selected>Rol Seçiniz</option>
+                    @foreach (var option in ViewBag.RoleListJArray)
+                    {
+                        <option value="@option["name"]">@option["name"]</option>
+                    }
+
+                </select>
+
+            </div>
+            <button type="submit" class="btn btn-outline-success offset-md-10 col-md-2">Kaydet</button>
+        </div>
+        
+    </form>
 </div>

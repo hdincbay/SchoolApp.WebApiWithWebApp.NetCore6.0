@@ -157,3 +157,4 @@ C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\S
 C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.pdb
 C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\SchoolApp.Api.genruntimeconfig.cache
 C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Api\obj\Debug\net6.0\ref\SchoolApp.Api.dll
+C:\Users\hdinc\OneDrive\GitHub\SchoolApp.WebApiWithWebApp.NetCore6.0\SchoolApp\SchoolApp.Api\bin\Debug\net6.0\libman.json

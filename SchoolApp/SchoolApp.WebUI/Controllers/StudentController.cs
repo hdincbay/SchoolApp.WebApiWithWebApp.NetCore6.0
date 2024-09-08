@@ -10,7 +10,7 @@ namespace SchoolApp.WebUI.Controllers
     public class StudentController : Controller
     {
         private readonly ILog log = LogManager.GetLogger(typeof(StudentController));
-
+        
         [HttpGet]
         public async Task<IActionResult> Index()
         {

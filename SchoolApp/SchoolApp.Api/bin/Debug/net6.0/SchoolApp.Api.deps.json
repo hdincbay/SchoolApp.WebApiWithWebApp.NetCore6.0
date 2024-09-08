@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SchoolApp.Api/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Newtonsoft.Json": "13.0.1",
           "SchoolApp.Services": "1.0.0",

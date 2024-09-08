@@ -1,6 +1,7 @@
 ﻿using log4net;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using RestSharp;
 using SchoolApp.WebUI.Areas.Admin.Models;
 
@@ -10,7 +11,18 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
     public class StudentController : Controller
     {
         private readonly ILog log = LogManager.GetLogger(typeof(StudentController));
+        [HttpPost]
+        public IActionResult AddRole(Student student, string selectedRole)
+        {
+            // Modelin özelliklerine erişim
+            Console.WriteLine(student.StudentName);
+            Console.WriteLine(student.StudentSurname);
 
+            
+
+            // İşlemler tamamlandıktan sonra yönlendirme veya başka bir işlem
+            return RedirectToAction("Index");
+        }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -212,23 +224,31 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
             }
             return RedirectToAction("Index", "Student");
         }
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> Get([FromRoute] int id)
         {
             try
             {
+                var endpointByRoles = $"https://localhost:7081/api/Role/GetAllRoles";
                 var resource = $"https://localhost:7081/api/Student/GetOneStudent/{id}";
                 log.Debug("Gidilecek endpoint: " + resource);
                 var client = new RestClient();
                 log.Debug("Client oluşturuldu.");
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
+                
                 log.Debug("İstek gerçekleştiriliyor...");
                 if (response.IsSuccessStatusCode)
                 {
+                    var request2 = new RestRequest(endpointByRoles, Method.Get);
+                    var response2 = await client.ExecuteAsync(request2);
+                    var roleList = response2.Content;
+                    var roleListJArray = Newtonsoft.Json.JsonConvert.DeserializeObject<JArray>(roleList!);
+                    ViewBag.RoleListJArray = roleListJArray;
                     var jsonData = response.Content;
                     var student = JsonConvert.DeserializeObject<Student>(jsonData is not null ? jsonData : "");
                     return View(student);
+
                 }
             }
             catch (Exception ex)

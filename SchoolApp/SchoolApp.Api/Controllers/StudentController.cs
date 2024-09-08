@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SchoolApp.Api.ViewModels.StudentViewModels;
 using SchoolApp.Entities.Models;
+using SchoolApp.Repositories;
 using SchoolApp.Services.Contracts;
 
 namespace SchoolApp.Api.Controllers
@@ -11,10 +13,12 @@ namespace SchoolApp.Api.Controllers
     public class StudentController : ControllerBase
     {
         private readonly IServiceManager _manager;
+        private readonly RepositoryContext _context;
 
-        public StudentController(IServiceManager manager)
+        public StudentController(IServiceManager manager, RepositoryContext context)
         {
             _manager = manager;
+            _context = context;
         }
         [HttpGet("GetAllStudents")]
         public async Task<IActionResult> GetAllStudents()
