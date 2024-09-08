@@ -1,0 +1,30 @@
+﻿@model List<User>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telefon</th>
+            <th scope="col">#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.PhoneNumber</td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-success" href="#">Detay</a>
+                        <a class="btn btn-outline-success" href="#">Sil</a>
+                        <a class="btn btn-success" href="#">Rol Ekle</a>
+                    </div>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

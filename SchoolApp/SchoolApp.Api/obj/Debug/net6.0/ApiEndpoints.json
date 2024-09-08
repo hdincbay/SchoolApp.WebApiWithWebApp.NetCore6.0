@@ -368,6 +368,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SchoolApp.Api.Controllers.UserController",
+    "Method": "GetAllList",
+    "RelativePath": "api/User/GetAllList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SchoolApp.Api.Controllers.UserRoleController",
     "Method": "AddRolesToUser",
     "RelativePath": "api/UserRole/Create",

@@ -17,12 +17,12 @@ namespace SchoolApp.Api.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> AddRolesToUser(string userEmail, IEnumerable<string> roleList)
+        public async Task<IActionResult> AddRolesToUser(string userEmail, string role)
         {
             try
             {
                 var user = await _userManager.FindByEmailAsync(userEmail);
-                var result = await _userManager.AddToRolesAsync(user, roleList);
+                var result = await _userManager.AddToRoleAsync(user, role);
                 if(result.Succeeded)
                     return Ok();
                 return BadRequest();

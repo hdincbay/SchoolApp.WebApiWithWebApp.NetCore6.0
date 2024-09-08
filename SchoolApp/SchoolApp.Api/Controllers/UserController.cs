@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SchoolApp.Entities.Models;
 
 namespace SchoolApp.Api.Controllers
@@ -26,6 +27,19 @@ namespace SchoolApp.Api.Controllers
                 if(result.Succeeded)
                     return Ok("Kullanıcı Oluşturuldu.");
                 return BadRequest(string.Format("Kullanıcı oluşturma işlemi başarısız oldu: {0}", result.Errors.ToString()));
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetAllList")]
+        public async Task<IActionResult> GetAllList()
+        {
+            try
+            {
+                var userList = await _userManager.Users.ToListAsync();
+                return Ok(userList);
             }
             catch(Exception ex)
             {

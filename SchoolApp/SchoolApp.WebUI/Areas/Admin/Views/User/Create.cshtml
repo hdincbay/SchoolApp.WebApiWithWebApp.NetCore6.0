@@ -1,0 +1,23 @@
+﻿@model User
+<div class="text-center display-6">
+    @ViewBag.ResponseText
+</div>
+<form asp-controller="User" asp-action="Create" method="post">
+    <div class="form-group my-2">
+        <label asp-for="@Model.UserName">Kullanıcı Adı</label>
+        <input asp-for="@Model.UserName" class="form-control">
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="@Model.Email">Email</label>
+        <input type="email" asp-for="@Model.Email" class="form-control">
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="@Model.PhoneNumber">Telefon</label>
+        <input type="number" asp-for="@Model.PhoneNumber" class="form-control">
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="@Model.Password">Parola</label>
+        <input type="password" asp-for="@Model.Password" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-success">Kaydet</button>
+</form>
