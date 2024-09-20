@@ -378,9 +378,25 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SchoolApp.Api.Controllers.UserController",
+    "Method": "GetOneUser",
+    "RelativePath": "api/User/GetOneUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SchoolApp.Api.Controllers.UserRoleController",
     "Method": "AddRolesToUser",
-    "RelativePath": "api/UserRole/Create",
+    "RelativePath": "api/UserRole/AddRolesToUser",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -391,9 +407,9 @@
         "IsRequired": false
       },
       {
-        "Name": "roleList",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": true
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

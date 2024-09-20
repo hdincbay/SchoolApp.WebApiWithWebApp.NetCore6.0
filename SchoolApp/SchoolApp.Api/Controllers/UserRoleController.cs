@@ -11,12 +11,12 @@ namespace SchoolApp.Api.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
 
-        public UserRoleController(Microsoft.AspNetCore.Identity.UserManager<AppUser> userManager)
+        public UserRoleController(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
         }
 
-        [HttpPost("Create")]
+        [HttpPost("AddRolesToUser")]
         public async Task<IActionResult> AddRolesToUser(string userEmail, string role)
         {
             try

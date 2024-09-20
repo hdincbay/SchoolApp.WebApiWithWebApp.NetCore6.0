@@ -20,7 +20,7 @@
                     <div class="btn-group">
                         <a class="btn btn-success" href="#">Detay</a>
                         <a class="btn btn-outline-success" href="#">Sil</a>
-                        <a class="btn btn-success" href="#">Rol Ekle</a>
+                        <a asp-controller="User" asp-action="RoleOperations" asp-route-username="@item.UserName" class="btn btn-success">Rol Ekle</a>
                     </div>
                 </td>
             </tr>

@@ -1,0 +1,26 @@
+﻿@model User
+
+<div class="container">
+    <div class="form-group my-2">
+        <form asp-controller="User" asp-action="AddRoles" method="post">
+            <!-- Gizli e-posta alanı -->
+            <input asp-for="Email" type="hidden" />
+
+            <div class="display-6">
+                @Model.Email
+                <br />
+                <br />
+                <!-- Rol seçimi için açılır liste -->
+                <select name="selectedRole" class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                    <option value="" selected>Rol Seçiniz</option>
+                    @foreach (var option in ViewBag.RoleListContent)
+                    {
+                        <option value="@option">@option</option>
+                    }
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary">Kaydet</button>
+        </form>
+    </div>
+</div>

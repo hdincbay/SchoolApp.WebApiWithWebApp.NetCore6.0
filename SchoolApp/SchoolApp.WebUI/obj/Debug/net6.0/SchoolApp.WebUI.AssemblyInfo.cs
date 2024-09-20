@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolApp.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f073a6de865f08af92531477271bdaab3458bef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d0747bd01cb809c32afba45cdf975d4616da291")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolApp.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolApp.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

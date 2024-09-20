@@ -46,5 +46,19 @@ namespace SchoolApp.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("GetOneUser")]
+        public async Task<IActionResult> GetOneUser(string userName)
+        {
+            try
+            {
+                var user = await _userManager.FindByNameAsync(userName);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
+
 }
