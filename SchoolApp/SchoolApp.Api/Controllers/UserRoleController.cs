@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using SchoolApp.Entities.Models;
+using SchoolApp.Repositories;
 
 namespace SchoolApp.Api.Controllers
 {
@@ -10,10 +12,12 @@ namespace SchoolApp.Api.Controllers
     public class UserRoleController : ControllerBase
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly RepositoryContext _context;
 
-        public UserRoleController(UserManager<AppUser> userManager)
+        public UserRoleController(UserManager<AppUser> userManager, RepositoryContext context)
         {
             _userManager = userManager;
+            _context = context;
         }
 
         [HttpPost("AddRolesToUser")]
@@ -26,6 +30,20 @@ namespace SchoolApp.Api.Controllers
                 if(result.Succeeded)
                     return Ok();
                 return BadRequest();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetRolesByUser")]
+        public async Task<IActionResult> GetRolesByUser([FromQuery]string id)
+        {
+            try
+            {
+                var user = _context.Users.Where(u => u.Id.Equals(id)).FirstOrDefault();
+                var roles = await _userManager.GetRolesAsync(user!);
+                return Ok(roles);
             }
             catch (Exception ex)
             {

@@ -12,11 +12,13 @@ namespace SchoolApp.Api.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<AppRole> _roleManager;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager)
+        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _signInManager = signInManager;
         }
         [HttpPost("Create")]
         public async Task<IActionResult> Create(string userName, string email, string phoneNumber, string password)
@@ -55,6 +57,24 @@ namespace SchoolApp.Api.Controllers
                 return Ok(user);
             }
             catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(string userName, string password, string email)
+        {
+            try
+            {
+                var user = await _userManager.GetUserNameAsync(new AppUser() { UserName = userName });
+                var result = await _signInManager.PasswordSignInAsync(user, password, false, false);
+                if (result.Succeeded)
+                    return Ok("Login işlemi başarılı.");
+                else
+                    return BadRequest("Login işlemi başarısız!");
+                
+            }
+            catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }

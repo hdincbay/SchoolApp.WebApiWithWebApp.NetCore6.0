@@ -11,11 +11,19 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
     public class LessonController : Controller
     {
         private readonly ILog log = LogManager.GetLogger(typeof(LessonController));
+        private readonly IConfiguration _configuration;
+
+        public LessonController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         public async Task<IActionResult> Index()
         {
             try
             {
-                var resource = "https://localhost:7081/api/Lesson/GetAllLessons";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Lesson/GetAllLessons", apiEndpoint);
                 log.Debug("Ders Listesinin endpointi: " + resource);
                 var client = new RestClient(resource);
                 log.Debug("Client oluşturuldu.");
@@ -49,7 +57,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = "https://localhost:7081/api/LessonType/GetAllLessonType";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/LessonType/GetAllLessonType", apiEndpoint);
                 var client = new RestClient();
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -71,7 +80,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = "https://localhost:7081/api/Lesson/CreateOneLesson";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Lesson/CreateOneLesson", apiEndpoint);
                 log.Debug("Gidilecek endpoint: " + resource);
                 var client = new RestClient();
                 log.Debug("Client oluşturuldu.");
@@ -104,7 +114,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = "https://localhost:7081/api/LessonType/GetAllLessonType";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/LessonType/GetAllLessonType", apiEndpoint);
                 var client = new RestClient();
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -114,7 +125,7 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                     var values = JsonConvert.DeserializeObject<List<LessonType>>(jsonData is not null ? jsonData : "");
                     ViewBag.LessonTypeList = new SelectList(values, "LessonTypeId", "LessonTypeName", 1);
                 }
-                var resource2 = $"https://localhost:7081/api/Lesson/GetOneLesson/{id}";
+                var resource2 = string.Format("{0}/api/Lesson/GetOneLesson/{1}", apiEndpoint, id);
                 var client2 = new RestClient();
                 var request2 = new RestRequest(resource2, Method.Get);
                 var response2 = await client.ExecuteAsync(request2);
@@ -140,7 +151,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = $"https://localhost:7081/api/Lesson/UpdateLesson/{lesson.LessonId}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Lesson/UpdateLesson/{1}", apiEndpoint, lesson.LessonId);
                 log.Debug("Gidilecek endpoint: " + resource);
                 var client = new RestClient();
                 log.Debug("Client oluşturuldu.");
@@ -171,7 +183,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = $"https://localhost:7081/api/Lesson/GetOneLesson/{id}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Lesson/GetOneLesson/{}", apiEndpoint, id);
                 var client = new RestClient();
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -195,7 +208,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var resource = $"https://localhost:7081/api/Lesson/GetOneLesson/{id}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Lesson/GetOneLesson/{1}", apiEndpoint, id);
                 var client = new RestClient();
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -205,7 +219,7 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                     var lesson = JsonConvert.DeserializeObject<Lesson>(jsonData is not null ? jsonData : "");
                     if(lesson is not null)
                     {
-                        var resource2 = $"https://localhost:7081/api/Lesson/DeleteLesson/{lesson.LessonId}";
+                        var resource2 = string.Format("{0}/api/Lesson/DeleteLesson/{1}", apiEndpoint, lesson.LessonId);
                         var client2 = new RestClient();
                         var request2 = new RestRequest(resource2, Method.Delete);
                         var response2 = await client2.ExecuteAsync(request2);

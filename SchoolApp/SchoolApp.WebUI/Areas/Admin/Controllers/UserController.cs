@@ -8,6 +8,13 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
     [Area("Admin")]
     public class UserController : Controller
     {
+        private readonly IConfiguration _configuration;
+
+        public UserController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         [HttpGet]
         public IActionResult Create()
         {
@@ -25,7 +32,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var endpoint = string.Format("https://localhost:7081/api/User/Create?userName={0}&email={1}&phoneNumber={2}&password={3}", user.UserName, user.Email, user.PhoneNumber, user.Password);
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var endpoint = string.Format("{0}/api/User/Create?userName={1}&email={2}&phoneNumber={3}&password={4}", apiEndpoint, user.UserName, user.Email, user.PhoneNumber, user.Password);
                 var client = new RestClient();
                 var request = new RestRequest(endpoint, Method.Post);
                 var response = await client.ExecuteAsync(request);
@@ -46,7 +54,8 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var endpoint = "https://localhost:7081/api/User/GetAllList";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var endpoint = string.Format("{0}/api/User/GetAllList", apiEndpoint);
                 var client = new RestClient();
                 var request = new RestRequest(endpoint, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -54,7 +63,16 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
                 var listUserNew = new List<User>();
                 foreach (var item in userListJArray!)
                 {
-                    listUserNew.Add(new User { Email = item["email"]?.ToString(), PhoneNumber = item["phoneNumber"]?.ToString(), UserName = item["userName"]?.ToString() });
+                    var endpointByUserRole = string.Format("{0}/api/UserRole/GetRolesByUser?id={1}", apiEndpoint, item["id"]?.ToString());
+                    var request2 = new RestRequest(endpointByUserRole, Method.Get);
+                    var response2 = await client.ExecuteAsync(request2);
+                    var roleListJArray = Newtonsoft.Json.JsonConvert.DeserializeObject<JArray>(response2.Content!);
+                    var roleList = new List<string>();
+                    foreach(var rl in roleListJArray)
+                    {
+                        roleList.Add(Newtonsoft.Json.JsonConvert.DeserializeObject<string>(Newtonsoft.Json.JsonConvert.SerializeObject(rl))!);
+                    }
+                    listUserNew.Add(new User { Email = item["email"]?.ToString(), PhoneNumber = item["phoneNumber"]?.ToString(), UserName = item["userName"]?.ToString(), Roles = roleList});
                 }
                 return View(listUserNew);
             }
@@ -68,23 +86,37 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
                 var client = new RestClient();
-                var endpoint = string.Format("https://localhost:7081/api/User/GetOneUser?userName={0}", username);
+                var endpoint = string.Format("{0}/api/User/GetOneUser?userName={1}", apiEndpoint, username);
                 var request = new RestRequest(endpoint, Method.Get);
                 var response = await client.ExecuteAsync(request);
                 var userModel = Newtonsoft.Json.JsonConvert.DeserializeObject<User>(response.Content!);
-                var endpoint2 = "https://localhost:7081/api/Role/GetAllRoles";
+                var endpoint2 = string.Format("{0}/api/Role/GetAllRoles", apiEndpoint);
                 var request2 = new RestRequest(endpoint2, Method.Get);
                 var response2 = await client.ExecuteAsync(request2);
                 var roleListJArray = Newtonsoft.Json.JsonConvert.DeserializeObject<JArray>(response2.Content!);
+
+
+
+                var endpointGetUser = string.Format("{0}/api/User/GetOneUser?userName={1}", apiEndpoint, username);
+                var requestGetUser = new RestRequest(endpointGetUser, Method.Get);
+                var responseGetUser = await client.ExecuteAsync(requestGetUser);
+                var itemGetUserJObj = Newtonsoft.Json.JsonConvert.DeserializeObject<JObject>(responseGetUser.Content!);
+                var endpointByUserRole = string.Format("{0}/api/UserRole/GetRolesByUser?id={1}", apiEndpoint, itemGetUserJObj!["id"]?.ToString());
+                var requestGetUserRoles = new RestRequest(endpointByUserRole, Method.Get);
+                var responseGetUserRoles = await client.ExecuteAsync(requestGetUserRoles);
+                var roleListJArrayByUser = Newtonsoft.Json.JsonConvert.DeserializeObject<JArray>(responseGetUserRoles.Content!);
+
+
                 var roleList = new List<String>();
+                
                 ViewBag.RoleListContent = roleList;
-                foreach(var item in roleListJArray!)
+                foreach(var item in roleListJArrayByUser!)
                 {
-                    var roleName = item["name"]?.ToString();
-                    roleList.Add(roleName!);
+                    roleList.Add(item!.ToString());
                 }
+                ViewBag.RoleList = roleList;
                 return View(userModel);
             }
             catch(Exception ex)
@@ -97,11 +129,12 @@ namespace SchoolApp.WebUI.Areas.Admin.Controllers
         {
             try
             {
-                var endpoint = string.Format("https://localhost:7081/api/UserRole/AddRolesToUser?userEmail={0}&role={1}", user.Email, selectedRole);
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var endpoint = string.Format("{0}/api/UserRole/AddRolesToUser?userEmail={1}&role={2}", apiEndpoint, user.Email, selectedRole);
                 var client = new RestClient();
                 var request = new RestRequest(endpoint, Method.Post);
                 var response = await client.ExecuteAsync(request);
-                return RedirectToAction("Index", "Student", "Admin");
+                return RedirectToAction("Index", "User", "Admin");
             }
             catch(Exception ex)
             {

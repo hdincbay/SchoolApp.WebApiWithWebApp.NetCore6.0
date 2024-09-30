@@ -1,0 +1,11 @@
+﻿@model Role
+
+<div class="container">
+    <form asp-controller="Role" asp-action="Create" method="post">
+        <div class="form-group my-2">
+            <label asp-for="Name">İsim</label>
+            <input class="form-control" asp-for="Name"/>
+        </div>
+        <button type="submit" class="btn btn-outline-success">Kaydet</button>
+    </form>
+</div>

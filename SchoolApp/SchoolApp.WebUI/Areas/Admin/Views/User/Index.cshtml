@@ -1,11 +1,12 @@
 ﻿@model List<User>
 
-<table class="table table-striped">
+<table class="table table-striped text-center">
     <thead>
         <tr>
             <th scope="col">Kullanıcı Adı</th>
             <th scope="col">Email</th>
             <th scope="col">Telefon</th>
+            <th scope="col">Roller</th>
             <th scope="col">#</th>
         </tr>
     </thead>
@@ -16,6 +17,33 @@
                 <td>@item.UserName</td>
                 <td>@item.Email</td>
                 <td>@item.PhoneNumber</td>
+                <td>
+                    @{
+                        string strRoles = "";
+                        int count = 0;
+                        foreach (var rl in @item.Roles)
+                        {
+                            if (item.Roles.Count > 1)
+                            {
+                                count++;
+                                if (count == item.Roles.Count)
+                                {
+                                    strRoles = strRoles + string.Concat(rl);
+                                }
+                                else
+                                {
+                                    strRoles = strRoles + string.Concat(rl, ", ");
+                                }
+                            }
+                            else
+                            {
+                                strRoles = rl;
+                            }
+                        }
+                    }
+                    
+                    @strRoles
+                </td>
                 <td>
                     <div class="btn-group">
                         <a class="btn btn-success" href="#">Detay</a>

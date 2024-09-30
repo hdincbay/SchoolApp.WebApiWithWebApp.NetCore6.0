@@ -6,13 +6,31 @@
             <!-- Gizli e-posta alanı -->
             <input asp-for="Email" type="hidden" />
 
-            <div class="display-6">
-                @Model.Email
+            <div class="display-8">
+                @{
+                    string prm = "Rol Listesi: ";
+                    string result = "";
+                    int count = 0;
+                    foreach (var rl in @ViewBag.RoleListContent)
+                    {
+                        count++;
+                        if (count == ViewBag.RoleListContent.Count)
+                        {
+                            result = result + string.Concat(rl);
+                        }
+                        else
+                        {
+                            result = result + string.Concat(rl, ", ");
+                        }
+                    }
+                }
+                <div class="display-6">@prm</div>@result
+                 
                 <br />
                 <br />
                 <!-- Rol seçimi için açılır liste -->
                 <select name="selectedRole" class="form-select form-select-md mb-3" aria-label=".form-select-md example">
-                    <option value="" selected>Rol Seçiniz</option>
+                    <option value="" selected>Bir Rol Seçiniz</option>
                     @foreach (var option in ViewBag.RoleListContent)
                     {
                         <option value="@option">@option</option>

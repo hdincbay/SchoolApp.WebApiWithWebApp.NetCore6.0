@@ -10,12 +10,20 @@ namespace SchoolApp.WebUI.Controllers
     public class LessonController : Controller
     {
         private readonly ILog log = LogManager.GetLogger(typeof(LessonController));
+        private readonly IConfiguration _configuration;
+
+        public LessonController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             try
             {
-                string resource = "https://localhost:7081/api/Lesson/GetAllLessons";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                string resource = string.Format("{0}/api/Lesson/GetAllLessons", apiEndpoint);
                 log.Debug("Gidilecek endpoint: " + resource);
                 var client = new RestClient();
                 log.Debug("Client oluşturuldu.");

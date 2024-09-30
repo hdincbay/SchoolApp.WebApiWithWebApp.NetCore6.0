@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Role>
+    <div class="row">
+        <div class="col-md-2 offset-md-10">
+            <a asp-controller="Role" asp-action="Create" class="btn btn-success"><i class="fa fa-plus"></i> Rol Oluştur</a>
+        </div>
+    </div>
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a href="" class="btn btn-outline-success">Güncelle</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

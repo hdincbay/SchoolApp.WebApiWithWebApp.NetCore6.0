@@ -10,13 +10,20 @@ namespace SchoolApp.WebUI.Controllers
     public class StudentController : Controller
     {
         private readonly ILog log = LogManager.GetLogger(typeof(StudentController));
-        
+        private readonly IConfiguration _configuration;
+
+        public StudentController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             try
             {
-                var resource = "https://localhost:7081/api/Student/GetAllStudents";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Student/GetAllStudents", apiEndpoint);
                 log.Debug("Öğrenci Listesinin endpointi: " + resource);
                 var client = new RestClient(resource);
                 log.Debug("Client oluşturuldu.");
@@ -56,7 +63,8 @@ namespace SchoolApp.WebUI.Controllers
         {
             try
             {
-                var resource = "https://localhost:7081/api/Student/CreateStudent";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Student/CreateStudent", apiEndpoint);
                 log.Debug("Gidilecek endpoint: " + resource);
                 var client = new RestClient();
                 log.Debug("Client oluşturuldu.");
@@ -95,7 +103,8 @@ namespace SchoolApp.WebUI.Controllers
         {
             try
             {
-                var resource = $"https://localhost:7081/api/Student/GetOneStudent/{id}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource = string.Format("{0}/api/Student/GetOneStudent/{1}", apiEndpoint, id);
                 var client = new RestClient();
                 var request = new RestRequest(resource, Method.Get);
                 var response = await client.ExecuteAsync(request);
@@ -117,7 +126,8 @@ namespace SchoolApp.WebUI.Controllers
         {
             try
             {
-                var resource1 = $"https://localhost:7081/api/Student/GetOneStudent/{student.StudentId}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource1 = string.Format("{0}/api/Student/GetOneStudent/{1}", apiEndpoint, student.StudentId);
                 var client1 = new RestClient();
                 var request1 = new RestRequest(resource1, Method.Get);
                 var response1 = await client1.ExecuteAsync(request1);
@@ -129,7 +139,7 @@ namespace SchoolApp.WebUI.Controllers
 
                 if(student is not null)
                 {
-                    var resource2 = $"https://localhost:7081/api/Student/UpdateStudent/{student.StudentId}";
+                    var resource2 = string.Format("{0}/api/Student/UpdateStudent/{1}", apiEndpoint, student.StudentId);
                     log.Debug("Gidilecek endpoint: " + resource2);
                     var client2 = new RestClient();
                     log.Debug("Client oluşturuldu.");
@@ -169,7 +179,8 @@ namespace SchoolApp.WebUI.Controllers
         {
             try
             {
-                var resource1 = $"https://localhost:7081/api/Student/GetOneStudent/{id}";
+                var apiEndpoint = _configuration["apiEndpointAddress"]?.ToString();
+                var resource1 = string.Format("{0}/api/Student/GetOneStudent/{1}", apiEndpoint, id);
                 log.Debug("Gidilecek endpoint: " + resource1);
                 var client1 = new RestClient();
                 log.Debug("Client oluşturuldu.");
@@ -182,7 +193,7 @@ namespace SchoolApp.WebUI.Controllers
                     if(student is not null)
                     {
                         log.Debug("student is not null!");
-                        var resource2 = $"https://localhost:7081/api/Student/DeleteStudent/{student.StudentId}";
+                        var resource2 = string.Format("{0}/api/Student/DeleteStudent/{1}", apiEndpoint, student.StudentId);
                         log.Debug("Gidilecek endpoint: " + resource2);
                         var client2 = new RestClient();
                         var request2 = new RestRequest(resource2, Method.Delete);
