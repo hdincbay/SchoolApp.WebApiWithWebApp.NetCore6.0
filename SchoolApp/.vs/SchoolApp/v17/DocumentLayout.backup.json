@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.api\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\areas\\admin\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39B6BCE2-DA31-4B11-A68D-F365FE8CE01C}|SchoolApp.WebUI\\SchoolApp.WebUI.csproj|solutionrelative:schoolapp.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|c:\\users\\hdinc\\onedrive\\github\\schoolapp.webapiwithwebapp.netcore6.0\\schoolapp\\schoolapp.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7941D6AD-6014-4CE8-ABA0-674733F3613C}|SchoolApp.Api\\SchoolApp.Api.csproj|solutionrelative:schoolapp.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,123 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\StudentController.cs",
               "RelativeToolTip": "SchoolApp.WebUI\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:27:14.451Z",
+              "WhenOpened": "2024-10-05T06:32:13.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "LessonController.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\LessonController.cs",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Controllers\\LessonController.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\LessonController.cs",
-              "RelativeToolTip": "SchoolApp.WebUI\\Controllers\\LessonController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:26:59.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Program.cs",
-              "RelativeToolTip": "SchoolApp.WebUI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:14:55.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "SchoolApp.WebUI\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\LessonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T14:14:52.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SchoolApp.WebUI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T14:09:03.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\ViewModels\\User.cs",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\ViewModels\\User.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\ViewModels\\User.cs",
-              "RelativeToolTip": "SchoolApp.WebUI\\ViewModels\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:08:31.204Z",
+              "WhenOpened": "2024-10-05T06:32:07.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SchoolApp.WebUI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAlwCMAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:02:48.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "SchoolApp.WebUI\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T14:01:45.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SchoolApp.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwFAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:01:14.699Z",
+              "WhenOpened": "2024-10-05T06:32:06.594Z",
               "EditorCaption": ""
             },
             {
@@ -181,22 +83,35 @@
               "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:00:14.343Z",
+              "WhenOpened": "2024-10-05T06:32:05.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRoleController.cs",
-              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\Controllers\\UserRoleController.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Api\\Controllers\\UserRoleController.cs",
-              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\Controllers\\UserRoleController.cs",
-              "RelativeToolTip": "SchoolApp.Api\\Controllers\\UserRoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolApp.WebUI\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:00:10.272Z",
+              "WhenOpened": "2024-10-05T06:32:00.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\libman.json",
+              "RelativeDocumentMoniker": "SchoolApp.Api\\libman.json",
+              "ToolTip": "C:\\Users\\hdinc\\OneDrive\\GitHub\\SchoolApp.WebApiWithWebApp.NetCore6.0\\SchoolApp\\SchoolApp.Api\\libman.json",
+              "RelativeToolTip": "SchoolApp.Api\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T06:31:49.612Z",
               "EditorCaption": ""
             }
           ]
